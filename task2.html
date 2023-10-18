@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>t2</title>
+</head>
+<body>
+    <script>
+        
+        function calculateCircleArea(radius) {
+        const pi = Math.PI;
+        const area = pi * radius * radius;
+        return area;
+        }
+
+
+        const radius = 2; 
+        const area = calculateCircleArea(radius);
+
+        // console.log("The area of the circle with radius" + " " + radius + " " + "is" + " " + area);
+        document.write("The area of the circle with radius" + " " + radius + " " + "is" + " " + area.toFixed(2));
+
+
+    </script>
+</body>
+</html>
